@@ -22,7 +22,7 @@ var page_load = function() {
             out += arr.Completed_Courses[i].name+", ";
         }
         out += "and " + arr.Completed_Courses[i]+"\n";
-        var out += "Current classes: ";
+        out += "Current classes: ";
         for(i = 0; i < arr.Current_Courses.length-1; i++) {
             out += arr.Current_Courses[i].name+", ";
         }
