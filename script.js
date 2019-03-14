@@ -6,7 +6,9 @@ var page_load = function() {
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             console.log("JSON loaded");
+            console.log(this.responseText);
             var myArr = JSON.parse(this.responseText);
+            console.log(myArr);
             myFunction(myArr);
         }
     };
