@@ -19,12 +19,12 @@ var page_load = function() {
         var out = "Completed Courses: ";
         var i;
         for(i = 0; i < arr.Completed_Courses.length-1; i++) {
-            out += arr.Completed_Courses[i]+", ";
+            out += arr.Completed_Courses[i].name+", ";
         }
         out += "and " + arr.Completed_Courses[i]+"\n";
         var out += "Current classes: ";
         for(i = 0; i < arr.Current_Courses.length-1; i++) {
-            out += arr.Current_Courses[i]+", ";
+            out += arr.Current_Courses[i].name+", ";
         }
         out += "and " + arr.Current_Courses[i]+"\n";
         console.log(out);
