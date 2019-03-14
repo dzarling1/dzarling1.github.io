@@ -8,6 +8,23 @@
         <script type="text/javascript" src="script.js"></script>
     </head>
     <body onload="page_load()">
+        <script>
+
+        $(function() {
+
+
+        var projects = [];
+
+        $.getJSON('projects.json', function(data) {
+           $.each(data.Completed_Courses, function(i, f) {
+              var tblRow = "<tr>" + "<td>" + f.name + "</td>" + "</tr>"
+               $(tblRow).appendTo("#userdata tbody");
+         });
+
+        });
+
+        });
+        </script>
         <h1>Projects</h1>
         <p>
         
