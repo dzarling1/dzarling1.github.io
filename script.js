@@ -18,7 +18,7 @@ var page_load = function() {
     function myFunction(arr) {
         var out = "Current classes: ";
         var i;
-        for(i = 0; i < arr.length; i++) {
+        for(i = 0; i < arr.Current_Courses.length; i++) {
             out += arr.Current_Courses[i]+", ";
         }
         console.log(out);
