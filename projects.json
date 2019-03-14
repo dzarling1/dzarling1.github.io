@@ -1,11 +1,11 @@
-{"Completed Courses":[
+{"Completed_Courses":[
     {"name":"Data Structures"}
     {"name":"Object Orientated Design"}
     {"name":"Computer Architechure"}
     {"name":"Information Security"}
     {"name":"Operating Systems"}
 ]}
-{"Current Courses":[
+{"Current_Courses":[
     {"name":"Algorithms"}
     {"name":"Web Development"}
 ]}
