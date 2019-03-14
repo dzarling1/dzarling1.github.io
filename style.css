@@ -1,3 +1,10 @@
+* {
+    margin: 0 auto;
+    background-color: rgb(255, 142, 15);
+}
+body {
+    width: 75%;
+}
 .row > .column {
     padding: 0 8px;
 }
