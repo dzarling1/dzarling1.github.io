@@ -7,27 +7,15 @@
         <link rel="stylesheet" href="style.css"/>
         <script type="text/javascript" src="script.js"></script>
     </head>
-    <body onload="page_load()">
-        <script>
-
-        $(function() {
-
-
-        var projects = [];
-
-        $.getJSON('projects.json', function(data) {
-           $.each(data.Completed_Courses, function(i, f) {
-              var tblRow = "<tr>" + "<td>" + f.name + "</td>" + "</tr>"
-               $(tblRow).appendTo("#userdata tbody");
-         });
-
-        });
-
-        });
-        </script>
+    <body onload="page_load2()">
         <h1>Projects</h1>
         <p>
-        
+        Algorithm Divide and Conquer Project
+        Architecture Cache Project
+        Architecture Assembler
+        Information Security Salt and Pepper Project
+        Information Security User csrf project
+        Operating Systems MMU Page table Project
         </p>
         <a href="https://dzarling1.github.io/" target="_self"> New Link </a>
     </body>
