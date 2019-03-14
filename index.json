@@ -1,11 +1,6 @@
-{"Completed_Courses":[
-    {"name":"Data Structures"}
-    {"name":"Object Orientated Design"}
-    {"name":"Computer Architechure"}
-    {"name":"Information Security"}
-    {"name":"Operating Systems"}
-]}
-{"Current_Courses":[
-    {"name":"Algorithms"}
-    {"name":"Web Development"}
-]}
+var Completed_Courses = {
+    "name": ["Data Structures", "Object Orientated Design", "Computer Architechure", "Information Security", "Operating Systems"]
+}
+var Current_Courses = {
+    "name": ["Algorithms", "Web Development"]
+}
