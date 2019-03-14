@@ -4,4 +4,8 @@
     {"name":"Computer Architechure"},
     {"name":"Information Security"},
     {"name":"Operating Systems"}
+],
+"Current_Courses":[
+    {"name":"Algorithms"},
+    {"name":"Web Development"}
 ]}
