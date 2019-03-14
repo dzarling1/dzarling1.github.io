@@ -24,3 +24,7 @@ p {
 body {
     width: 900px;
 }
+img {
+    width: 5 rem;
+    height: auto;
+}
