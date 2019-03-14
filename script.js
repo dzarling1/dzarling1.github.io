@@ -1,7 +1,7 @@
 var page_load = function() {
     console.log("Page loaded");
     var xmlhttp = new XMLHttpRequest();
-    var url = "https://dzarling1.github.io/index.json";
+    var url = "index.json";
 
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
