@@ -16,11 +16,10 @@ var page_load = function() {
     xmlhttp.send();
 
     function myFunction(arr) {
-        var out = "";
+        var out = "Current classes: ";
         var i;
         for(i = 0; i < arr.length; i++) {
-            out += '<a href="' + arr[i].url + '">' +
-            arr[i].display + '</a><br>';
+            out += arr.Current_Courses[i]+", ";
         }
         document.getElementById("json").innerHTML = out;
     }
