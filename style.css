@@ -15,10 +15,10 @@ body {
     clear: both;
 }
 
-/* Create four equal columns that floats next to eachother */
+/* Create equal columns that floats next to eachother */
 .column {
     float: left;
-    width: 33%;
+    width: 25%;
 }
 
 /* The Modal (background) */
