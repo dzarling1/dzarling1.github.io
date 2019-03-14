@@ -21,7 +21,7 @@ var page_load = function() {
         for(i = 0; i < arr.Completed_Courses.length-1; i++) {
             out += arr.Completed_Courses[i].name+", ";
         }
-        out += "and " + arr.Completed_Courses[i].name+</br>;
+        out += "and " + arr.Completed_Courses[i].name+<br>;
         out += "Current classes: ";
         for(i = 0; i < arr.Current_Courses.length-1; i++) {
             out += arr.Current_Courses[i].name+", ";
