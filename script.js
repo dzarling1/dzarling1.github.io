@@ -21,6 +21,7 @@ var page_load = function() {
         for(i = 0; i < arr.length; i++) {
             out += arr.Current_Courses[i]+", ";
         }
+        console.log(out);
         document.getElementById("json").innerHTML = out;
     }
 }
