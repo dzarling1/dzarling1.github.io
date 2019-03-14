@@ -16,11 +16,17 @@ var page_load = function() {
     xmlhttp.send();
 
     function myFunction(arr) {
-        var out = "Current classes: ";
+        var out = "Completed Courses: ";
         var i;
-        for(i = 0; i < arr.Current_Courses.length; i++) {
+        for(i = 0; i < arr.Completed_Courses.length-1; i++) {
+            out += arr.Completed_Courses[i]+", ";
+        }
+        out += "and " + arr.Completed_Courses[i]+"\n";
+        var out += "Current classes: ";
+        for(i = 0; i < arr.Current_Courses.length-1; i++) {
             out += arr.Current_Courses[i]+", ";
         }
+        out += "and " + arr.Current_Courses[i]+"\n";
         console.log(out);
         document.getElementById("json").innerHTML = out;
     }
