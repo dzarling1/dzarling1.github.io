@@ -34,6 +34,16 @@ body {
     transition-duration: 1s;
 }
 
+@media screen and (max-width: 600px) {
+    .page_header p {
+        font-size: 1.5rem;
+    }
+
+    .page_header a {
+        font-size: 1.5rem;
+    }
+}
+
 .page_header a:hover {
     color: black;
 }
