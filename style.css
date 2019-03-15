@@ -2,7 +2,11 @@
     margin: 0 auto;
     background-color: rgb(240, 240, 240);
 }
+body {
+    width: 75%;
+}
 .page_header {
+    background-color: rgb(200,200,200);
     width: 100%;
 }
 
@@ -30,9 +34,7 @@
 h1 {
     clear:left;
 }
-body {
-    width: 75%;
-}
+
 .row > .column {
     padding: 0 8px;
 }
