@@ -19,6 +19,8 @@ body {
 .column {
     float: left;
     width: 30%;
+    height: 25%;
+    text-align: center;
 }
 
 /* The Modal (background) */
