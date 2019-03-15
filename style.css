@@ -15,7 +15,6 @@ body {
 }
 
 .page_header p {
-    border: 3px double black;
     background-color: rgb(200,200,200);
     float: left;
     font-size: 2rem;
@@ -23,7 +22,6 @@ body {
 }
     
 .page_header a {
-    border: 3px double black;
     background-color: rgb(200,200,200);
     font-size: 2rem;
     float: right;
