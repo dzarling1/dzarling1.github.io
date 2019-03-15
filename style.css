@@ -28,6 +28,7 @@ body {
     padding-right: 15px;
     color: rgb(150,150,150);
     text-decoration: none;
+    transition-duration: 2s;
 }
 
 .page_header a:hover {
