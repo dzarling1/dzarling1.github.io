@@ -61,7 +61,7 @@
                 <a class="img_link" href="https://commons.wikimedia.org/wiki/File:MMU_principle_updated.png" target="_self"> img from here </a>
             </div>
         </div>
-        <!-- The Modal/Lightbox -->
+        <!-- Lightbox -->
         <div id="myModal" class="modal">
             <span class="close cursor" onclick="closeModal()">&times;</span>
             <div class="modal-content">
@@ -100,12 +100,12 @@
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-                <!-- Caption text -->
+                <!-- Caption -->
                 <div class="caption-container">
                     <p id="caption"></p>
                 </div>
 
-                <!-- Thumbnail image controls -->
+                <!-- Thumbnail image -->
                 <div class="column">
                     <img class="demo" src="divide_and_conquer_thumb.png" onclick="currentSlide(1)" alt="Algorithms:
                     Divide and Conquer Project<br>This Project was about using a divide and conquer method to create algorithms
@@ -144,12 +144,12 @@
             </div>
         </div>
         <script>
-        // Open the Modal
+        // Open
         function openModal() {
             document.getElementById('myModal').style.display = "block";
         }
 
-        // Close the Modal
+        // Close
         function closeModal() {
             document.getElementById('myModal').style.display = "none";
         }
@@ -162,7 +162,7 @@
             showSlides(slideIndex += n);
         }
 
-        // Thumbnail image controls
+        // Thumbnail image
         function currentSlide(n) {
             showSlides(slideIndex = n);
         }
