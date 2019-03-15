@@ -39,6 +39,10 @@ body {
     text-decoration: none;
 }
 
+#me {
+    float: left;
+}
+
 h1 {
     text-align: center;
     clear:left;
