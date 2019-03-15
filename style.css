@@ -36,11 +36,11 @@ body {
 
 @media screen and (max-width: 600px) {
     .page_header p {
-        font-size: 1rem;
+        font-size: .5rem;
     }
 
     .page_header a {
-        font-size: 1rem;
+        font-size: .5rem;
     }
 }
 
