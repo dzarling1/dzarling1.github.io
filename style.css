@@ -2,8 +2,18 @@
     margin: 0 auto;
     background-color: rgb(240, 240, 240);
 }
+.page_header {
+    width: 100%;
+}
 
+.page_header p {
+    float: left;
+    font-size: 2rem;
+    color: rgb(90,90,90);
+}
+    
 .page_header a {
+    font-size: 1rem;
     color: rgb(150,150,150);
     text-decoration: none;
 }
