@@ -11,12 +11,14 @@ body {
 }
 
 .page_header p {
+    background-color: rgb(200,200,200);
     float: left;
     font-size: 2rem;
     color: rgb(90,90,90);
 }
     
 .page_header a {
+    background-color: rgb(200,200,200);
     font-size: 2rem;
     float: right;
     padding-right: 15px;
