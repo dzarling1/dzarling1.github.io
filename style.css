@@ -41,6 +41,10 @@ body {
     text-decoration: none;
 }
 
+.img_link:hover {
+    color: black;
+}
+
 #me {
     float: left;
 }
