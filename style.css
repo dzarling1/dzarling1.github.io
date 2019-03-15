@@ -3,12 +3,7 @@
     background-color: rgb(240, 240, 240);
 }
 
-.page_header a:visited {
-    color: rgb(90,90,90);
-    text-decoration: none;
-}
-
-.page_header a:unvisited {
+.page_header a {
     color: rgb(90,90,90);
     text-decoration: none;
 }
