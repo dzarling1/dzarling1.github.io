@@ -2,6 +2,19 @@
     margin: 0 auto;
     background-color: rgb(255, 142, 15);
 }
+
+.page_header a:visited {
+    color: #333333;
+}
+
+.page_header a:unvisited {
+    color: #333333;
+}
+
+.page_header a:hover {
+    color: black;
+}
+
 body {
     width: 75%;
 }
