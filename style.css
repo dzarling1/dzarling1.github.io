@@ -18,7 +18,7 @@ body {
 /* Create equal columns that floats next to eachother */
 .column {
     float: left;
-    width: 32%;
+    width: 30%;
 }
 
 /* The Modal (background) */
