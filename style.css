@@ -12,12 +12,7 @@
     color: black;
 }
 
-.img_link a:visited {
-    color: rgb(66, 244, 241)
-    text-decoration: none;
-}
-
-.img_link a:unvisited {
+.img_link a {
     color: rgb(66, 244, 241)
     text-decoration: none;
 }
