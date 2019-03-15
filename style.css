@@ -19,7 +19,7 @@ body {
 .column {
     float: left;
     width: 30%;
-    height: 25%;
+    min-height: 500px;
     text-align: center;
 }
 
