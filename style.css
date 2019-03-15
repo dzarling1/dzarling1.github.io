@@ -27,6 +27,9 @@
     text-decoration: none;
 }
 
+h1 {
+    clear:left;
+}
 body {
     width: 75%;
 }
