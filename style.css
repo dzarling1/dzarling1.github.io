@@ -4,11 +4,11 @@
 }
 
 .page_header a:visited {
-    color: #333333;
+    color: rgb(50,50,50);
 }
 
 .page_header a:unvisited {
-    color: #333333;
+    color: rgb(50,50,50);
 }
 
 .page_header a:hover {
